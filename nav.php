@@ -16,7 +16,7 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">服務項目 <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">探索專業人才</a></li>
+            <li><a href="search5.php">探索專業人才</a></li>
             <li><a href="petition.php">代辦校友證件</a></li>
             <li><a href="#">校友數據統計</a></li>
           </ul>
