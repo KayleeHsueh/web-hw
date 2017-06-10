@@ -74,12 +74,12 @@
         <div class="row">
           <div class="brick-container">
             <div class="brick">
-              <a href="./id.php">
+              <a href="file/輔仁大學校友資料庫使用單位申請表.doc">
                 使用單位申請表
               </a>
             </div>
             <div class="brick">
-              <a href="./id.php">
+              <a href="file/校友資料庫系統_畢業生更新步驟.doc">
                 校友資料更新步<br>驟說明
               </a>
             </div>
@@ -89,7 +89,7 @@
               </a>
             </div>
             <div class="brick">
-              <a href="./id.php">
+              <a target="_blank" href="file/校友資料庫使用手冊.PDF">
                 網站使用手冊
               </a>
             </div>
