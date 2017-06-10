@@ -1,0 +1,17 @@
+{
+  "name": "kaylee-final-work",
+  "authors": [
+    "fzhan <fzhan@simpleinfo.cc>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

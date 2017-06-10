@@ -1,0 +1,9 @@
+footer {
+  padding: 16px 0;
+  background-color: #c0c0c0;
+}
+
+footer ul li {
+  list-style-type: none;
+  line-height: 1.5;
+}

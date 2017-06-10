@@ -1,0 +1,14 @@
+1.新增資料
+http://alumni.fju.edu.tw/index.asp?method=insert
+(分簡單欄位、全部欄位)
+
+2.常見問題
+http://alumni.fju.edu.tw/常見問題集.htm
+
+3.聯絡我們
+http://alumni.fju.edu.tw/message/index.asp?method=message
+
+4.服務項目
+http://alumni.fju.edu.tw/index.asp?method=crm
+
+^^
