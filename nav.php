@@ -21,7 +21,7 @@
             <li><a href="#">校友數據統計</a></li>
           </ul>
         </li>
-        <li><a href="#">常見問題</a></li>
+        <li><a href="qa.php">常見問題</a></li>
         <li><a href="message.php">聯絡我們</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
