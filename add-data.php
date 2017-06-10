@@ -71,41 +71,49 @@
     border-bottom: 1px solid #808080;
     width: 100%;
   }
+  #form-panel {
+    position: fixed;
+  }
+  @media screen and (max-width: 992px) {
+    #form-panel {
+      display: none;
+    }
+  }
   </style>
 </head>
-<body>
+<body data-spy="scroll" data-target="#navigation">
   <?php include_once(__DIR__ . '/nav.php');?>
   <div class="row">
     <div class="col-md-2 padding">
-      <div class="panel panel-primary">
+      <div class="panel panel-primary" id="form-panel">
         <div class="panel-heading">
           服務項目
         </div>
         <ul id="navigation" class="list-group">
           <li class="list-group-item">
-            <span class="glyphicon glyphicon-pencil" aria-hidden="true">&nbsp;
+            <a href="#basic">
               基本資料
-            </span>
+            </a>
           </li>
           <li class="list-group-item">
-            <span class="glyphicon glyphicon-pencil" aria-hidden="true">&nbsp;
-              聯絡資訊
-            </span>
+            <a href="#basic">
+            聯絡資訊
+            </a>
           </li>
           <li class="list-group-item">
-            <span class="glyphicon glyphicon-pencil" aria-hidden="true">&nbsp;
-              就業發展
-            </span>
+            <a href="#job">
+            就業發展
+            </a>
           </li>
           <li class="list-group-item">
-            <span class="glyphicon glyphicon-pencil" aria-hidden="true">&nbsp;
-              訂閱
-            </span>
+            <a href="#subscribe">
+            訂閱
+            </a>
           </li>
           <li class="list-group-item">
-            <span class="glyphicon glyphicon-pencil" aria-hidden="true">&nbsp;
-              進階欄位
-            </span>
+            <a href="#advance">
+            進階欄位
+            </a>
           </li>
         </ul>
       </div>
@@ -225,7 +233,7 @@
             </div>
             
           </div>
-          <div class="panel-heading">
+          <div class="panel-heading" id="job">
             就業發展
           </div>
           <div class="panel-body">
@@ -254,7 +262,7 @@
               <input type="tel" class="form-control" id="column-10" placeholder="公司電話">
             </div>
           </div>
-          <div class="panel-heading">
+          <div class="panel-heading" id="subscribe">
             訂閱
           </div>
           <div class="panel-body">
@@ -290,7 +298,7 @@
             
 
           </div>
-          <div class="panel-heading">
+          <div class="panel-heading" id="advance">
             <a data-toggle="collapse" href="#advance">
               進階欄位+(點此填寫)
             </a>
@@ -341,7 +349,7 @@
   </div>
   <?php include_once(__DIR__ . '/footer.php');?>
   <script type="text/javascript">
-  $('html').scrollspy({
+  $('body').scrollspy({
     target: '#navigation'
   });
   $('[data-toggle="tooltip"]').tooltip();
