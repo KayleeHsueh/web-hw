@@ -18,7 +18,7 @@
           <ul class="dropdown-menu">
             <li><a href="search5.php">探索專業人才</a></li>
             <li><a href="petition.php">代辦校友證件</a></li>
-            <li><a href="#">校友數據統計</a></li>
+            <li><a href="subcrm.php">校友數據統計</a></li>
           </ul>
         </li>
         <li><a href="qa.php">常見問題</a></li>
