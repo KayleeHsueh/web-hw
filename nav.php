@@ -22,7 +22,7 @@
           </ul>
         </li>
         <li><a href="#">常見問題</a></li>
-        <li><a href="#">聯絡我們</a></li>
+        <li><a href="message.php">聯絡我們</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#">管理者登入</a></li>
