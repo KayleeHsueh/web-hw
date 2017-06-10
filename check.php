@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>確認校友身分</title>
+  <title>進度查詢</title>
   <script type="text/javascript" src="./bower_components/jquery/dist/jquery.min.js"></script>
   <script type="text/javascript" src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap.min.css">
@@ -31,6 +31,9 @@
   .currStep{
     color: #4ab6e0;
   }
+  .group{
+      margin: 100px 150px 100px 0px;
+  }
 
   </style>
 </head>
@@ -51,18 +54,22 @@
         </div>
       </div>
       <div class="col-md-9">   
-        <h3>步驟：1.申請項目→<span class="currStep">2.確認校友身分</span>→3.確認應備文件→4.付款資訊</h3>
-        <br>
-        <form>
-          <div class="form-group">
-            <label for="name">中文姓名</label>
-            <input type="text" class="form-control" id="name">
+        <h3><span class="glyphicon glyphicon-zoom-in" aria-hidden="true">&nbsp;查詢申請案件(欄位皆須填寫)</span></h3><br>
+        <form class="form">
+          <div class="form-group row">
+            <label for="example-text-input" class="col-2 col-form-label">中文姓名</label>
+            <div class="col-10">
+                <input class="form-control" type="text" value="" id="example-text-input">
+            </div>
           </div>
-          <div class="form-group">
-            <label for="id">密碼</label>
-            <input type="text" class="form-control" id="id" placeholder="若無設定，預設為身份證字號">
+          <div class="form-group row">
+            <label for="example-date-input" class="col-2 col-form-label">出生年月日</label>
+            <div class="col-10">
+                <input class="form-control" type="date" value="2011-08-19" id="example-date-input">
+            </div><br>
+          <a href="#" class="btn btn-primary">送出</a>
           </div>
-          <a href="search.php" class="btn btn-primary">送出</a>
+          
         </form>
     </div>
   </div>
