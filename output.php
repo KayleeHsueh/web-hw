@@ -12,7 +12,7 @@ foreach ($php_files as $index => $php_file) {
 
 foreach ($php_files as $index => $php_file) {
   echo 'will get ' . $php_file . "\n";
-  $content = file_get_contents('http://localhost:8088/' . $php_file);
+  $content = file_get_contents('http://localhost/' . $php_file);
   $content = preg_replace('/\.php/', '.html', $content);
   echo 'get ' . $php_file . "\n";
   $file_name = preg_replace('/php/', 'html', $php_file);
