@@ -22,8 +22,8 @@
       border-radius: 4px;
       float: left;
       display: block;
-      width: 240px;
-      height: 240px;
+      width: 207px;
+      height: 194px;
       background-color: #93c54b;
       margin-right: 2%;
       margin-bottom: 2%;
@@ -35,7 +35,7 @@
       display: inline-block;
       vertical-align: middle;
       color: #fff;
-      font-size: 32px;
+      font-size: 21px;
       height: 180px;
       margin: auto 0;
     }
@@ -45,7 +45,7 @@
   <?php include_once(__DIR__ . '/nav.php');?>
   <div class="container">
     <div class="row">
-      <div class="col-md-3">
+      <div class="col-md-2">
         <div class="panel panel-default">
           <div class="panel-heading">
             相關連結
@@ -64,7 +64,7 @@
           <form action="" class="form-inline">
             <div class="form-group">
               <label for="search">
-                校友搜尋（收入學號或姓名）
+                校友搜尋（輸入學號或姓名）
               </label>
               <input type="text" id="search" class="form-control">
             </div>
@@ -80,12 +80,12 @@
             </div>
             <div class="brick">
               <a href="file/校友資料庫系統_畢業生更新步驟.doc">
-                校友資料更新步<br>驟說明
+                校友資料更新步驟說明
               </a>
             </div>
             <div class="brick">
               <a href="./petition.php">
-                成績單及各項申<br>請
+                成績單及各項申請
               </a>
             </div>
             <div class="brick">
