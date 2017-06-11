@@ -111,7 +111,7 @@
             </a>
           </li>
           <li class="list-group-item">
-            <a href="#advance">
+            <a href="#advancebar">
             進階欄位
             </a>
           </li>
@@ -298,7 +298,7 @@
             
 
           </div>
-          <div class="panel-heading" id="advance">
+          <div class="panel-heading" id="advancebar">
             <a data-toggle="collapse" href="#advance">
               進階欄位+(點此填寫)
             </a>
