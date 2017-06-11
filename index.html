@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>輔仁大學校友資料庫</title>
+  <script type="text/javascript" src="./bower_components/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="./bootstrap.min.css"> -->
+  <link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap.sandstone.css">
+  <link rel="stylesheet" href="./style.css">
+  <style media="screen">
+    .brick-container {
+      position: relative;
+      display: block;
+      width: 100%;
+    }
+    
+    .brick-container .brick {
+      border-radius: 4px;
+      float: left;
+      display: block;
+      width: 207px;
+      height: 194px;
+      background-color: #93c54b;
+      margin-right: 2%;
+      margin-bottom: 2%;
+      text-align: center;
+      line-height:200px;
+      vertical-align: middle;
+    }
+    .brick-container .brick a {
+      display: inline-block;
+      vertical-align: middle;
+      color: #fff;
+      font-size: 21px;
+      height: 180px;
+      margin: auto 0;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">輔仁大學校友資料庫系統</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="./add-data.html">新增資料 <span class="sr-only">(current)</span></a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">服務項目 <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="search5.html">探索專業人才</a></li>
+            <li><a href="petition.html">代辦校友證件</a></li>
+            <li><a href="subcrm.html">校友數據統計</a></li>
+          </ul>
+        </li>
+        <li><a href="qa.html">常見問題</a></li>
+        <li><a href="message.html">聯絡我們</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">管理者登入</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            相關連結
+          </div>
+          <ul class="list-group">
+            <li class="list-group-item"> <a target="_blank" href="http://www.academic.fju.edu.tw/#&panel1-1">教務處</a> </li>
+            <li class="list-group-item"> <a target="_blank" href="http://fjwaa.fju.edu.tw/">校友會</a> </li>
+            <li class="list-group-item"> <a target="_blank" href="http://www.pro.fju.edu.tw/index.asp">公共事務室</a> </li>
+            <li class="list-group-item"> <a target="_blank" href="http://www.fju.edu.tw/index.jsp#&panel1-1">輔仁大學</a> </li>
+            <li class="list-group-item"> <a target="_blank" href="http://www.pro.fju.edu.tw/services03.asp">捐款輔大</a> </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-9">
+        <div class="row">
+          <form action="" class="form-inline">
+            <div class="form-group">
+              <label for="search">
+                校友搜尋（輸入學號或姓名）
+              </label>
+              <input type="text" id="search" class="form-control">
+            </div>
+            <input type="submit" value="Go" class="btn btn-success btn-md">
+          </form><br>
+        </div>
+        <div class="row">
+          <div class="brick-container">
+            <div class="brick">
+              <a href="file/輔仁大學校友資料庫使用單位申請表.doc">
+                使用單位申請表
+              </a>
+            </div>
+            <div class="brick">
+              <a href="file/校友資料庫系統_畢業生更新步驟.doc">
+                校友資料更新步驟說明
+              </a>
+            </div>
+            <div class="brick">
+              <a href="./petition.html">
+                成績單及各項申請
+              </a>
+            </div>
+            <div class="brick">
+              <a target="_blank" href="file/校友資料庫使用手冊.PDF">
+                網站使用手冊
+              </a>
+            </div>
+            <div class="brick">
+              <a target="_blank" href="http://questionary.dsa.fju.edu.tw/gradsurvey/">
+                畢業生流向調查
+              </a>
+            </div>
+            <div class="brick">
+              <a target="_blank" href="http://www.pro.fju.edu.tw/services03.asp">
+                捐款輔大
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+  <div class="container">
+    <ul>
+      <li>
+        系統開發單位： 輔仁大學統計資訊學系
+      </li>
+      <li>
+        系統維護單位：資訊中心
+      </li>
+      <li>
+        系統管理單位：公共事務室 電話：29052211
+      </li>
+      <li>
+        系統指導老師： 梁德馨教授
+      </li>
+      <li>
+        系統開發者： 廖建翔
+      </li>
+      <li>
+        信箱：公共事務室信箱
+      </li>
+      <li>
+        最佳瀏覽解析度 1024*768(建議) ,800*600 
+      </li>
+    </ul>
+  </div>
+</footer></body>
+</html>
